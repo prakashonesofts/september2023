@@ -15,4 +15,9 @@ public class SampleController {
             return "Hello";
         }
     }
+
+    @GetMapping("/data")
+    public Integer  getNum(){
+        return 100;
+    }
 }
