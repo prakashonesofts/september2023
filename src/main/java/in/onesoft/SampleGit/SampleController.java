@@ -9,7 +9,7 @@ public class SampleController {
     @GetMapping(value = "/getdetails")
     public String get(){
         if(true) {
-            return "Helloworld";
+            return "Helloworld is my first program";
         }
         else {
             return "Hello";
