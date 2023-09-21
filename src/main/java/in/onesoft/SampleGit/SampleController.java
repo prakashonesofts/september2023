@@ -8,6 +8,11 @@ public class SampleController {
 
     @GetMapping(value = "/getdetails")
     public String get(){
-        return "Helloworld";
+        if(true) {
+            return "Helloworld";
+        }
+        else {
+            return "Hello";
+        }
     }
 }
